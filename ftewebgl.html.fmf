@@ -1,0 +1,11 @@
+game Quake
+name "Quake Demo"
+basegame id1
+basegame fte
+basegame qw
+
+defaultexec \"alias stuffcmds \"bind w +forward; bind s +back; bind a +moveleft; bind d +moveright; bind mouse2 +jump;echo Welcome to FTE's PNACL port\""
+
+package id1/pak0.pak - "https://s3-ap-southeast-2.amazonaws.com/qwtf/paks/id1/pak0.pak"
+package fortress/pak0.pak - "https://github.com/FortressOne/assets/releases/download/1.0.0/pak0.pk3"
+package fortress/fortressone.pk3 - "https://github.com/FortressOne/ezquake-media/releases/download/v1.0.0/fortressone.pk3"
